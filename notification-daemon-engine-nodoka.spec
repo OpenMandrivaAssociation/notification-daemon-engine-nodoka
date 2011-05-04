@@ -1,6 +1,6 @@
 Name:           notification-daemon-engine-nodoka
 Version:        0.1.0
-Release:        %mkrel 3
+Release:        %mkrel 4
 Summary:        The Nodoka theme engine for the notification daemon
 
 Group:          System/X11
