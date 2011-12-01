@@ -42,15 +42,15 @@ autoreconf -i -f
 
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall_std
 
 #remove .la files
-find $RPM_BUILD_ROOT -name *.la | xargs rm -f || true
+find %{buildroot} -name *.la | xargs rm -f || true
 
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 
 %files
