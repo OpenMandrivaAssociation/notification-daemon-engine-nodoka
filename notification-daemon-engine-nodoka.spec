@@ -1,7 +1,7 @@
 Summary:	The Nodoka theme engine for the notification daemon
 Name:		notification-daemon-engine-nodoka
 Version:	0.1.0
-Release:	10
+Release:	11
 Group:		System/X11
 License:	GPLv3+
 Url:		https://nodoka.fedorahosted.org/
