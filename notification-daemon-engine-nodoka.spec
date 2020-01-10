@@ -25,7 +25,7 @@ The Nodoka theme engine for the notification daemon.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 autoreconf -fi
 
 %build
