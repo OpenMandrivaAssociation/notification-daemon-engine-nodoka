@@ -15,6 +15,11 @@ Patch4:		sexy.patch
 Patch5:		notification-daemon-engine-nodoka-window-type.patch
 Patch6:		notification-daemon-engine-nodoka-0.1.0-automake.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libtool
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(libxml-2.0)
